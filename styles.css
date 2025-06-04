@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+}
+
+.container {
+    max-width: 540px;
+    margin-block: auto;
+}
+
+#main {
+    box-shadow: 1px 1px 10px hsl(218, 22%, 67%);
+}
+
+.heading {
+    color: hsl(179, 62%, 43%);
+}
+
+.lime-color {
+    color: hsl(71, 73%, 54%);
+}
+
+.grey-color {
+    color: hsl(216, 18%, 83%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+    font-size: .9rem;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+}
+
+button:hover {
+    background-color: hsl(71, 62%, 49%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.second-section {
+    background-color: hsl(179, 62%, 49%);
+}
